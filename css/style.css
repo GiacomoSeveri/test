@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #fff;
 }
 
 header {
-    height: 90vh;
+    /* height: 90vh; */
     background-image: url('../img/1header/jumbo.jpg');
     object-fit: scale-down;
     background-position: center;
@@ -14,17 +15,58 @@ header {
 }
 
 #header {
+    height: 90vh;
     display: flex;
     justify-content: space-between;
 }
 
-.first-sec {
+.first-sec,
+.third-sec {
     display: flex;
+    width: 20%;
     justify-content: space-between;
+}
+
+.second-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 0 -60px;
+
+    .title {
+        font-size: 50px;
+    }
+
+    .bar {
+        width: 261px;
+        border: 2px solid white;
+        margin: 10px 0 10px 72px;
+    }
+
+    .sub {
+        text-align: center;
+    }
+
+    .btn {
+        width: 110px;
+        height: 40px;
+        background-color: #000;
+        margin: 15px 0 15px 145px;
+        padding: 10px 5px;
+
+        .fa-solid {
+            margin-left: 5px;
+        }
+
+        &:hover {
+            background-color: #292727;
+        }
+    }
 }
 
 .link {
-    padding: 10px 15px;
+    height: 5vh;
+    padding: 10px 10px;
     color: white;
     cursor: pointer;
 
