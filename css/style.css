@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 90vh;
+    background-image: url('../img/1header/jumbo.jpg');
+    object-fit: ;
+    background-position: center;
+}
