@@ -7,6 +7,28 @@
 header {
     height: 90vh;
     background-image: url('../img/1header/jumbo.jpg');
-    object-fit: ;
+    object-fit: scale-down;
     background-position: center;
+
+
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-sec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        text-shadow: #fff 1px 0 5px;
+    }
 }
