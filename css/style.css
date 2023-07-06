@@ -108,8 +108,8 @@ main {
     padding: 50px 0;
 
     .light {
-        width: 500px;
-        height: 310px;
+        width: 525px;
+        height: 330px;
         background-image: url('../img/2main/utility/light.jpg');
         object-fit: cover;
         background-position: center;
@@ -117,17 +117,17 @@ main {
     }
 
     .audio {
-        width: 500px;
-        height: 310px;
+        width: 525px;
+        height: 330px;
         background-image: url(../img/2main/utility/alexa.jpg);
-        object-fit: contain;
+        object-fit: cover;
         background-position: center;
         padding: 215px 0 0 320px;
     }
 
     .arredo {
-        width: 500px;
-        height: 310px;
+        width: 525px;
+        height: 330px;
         background-image: url('../img/2main/utility/arredo.jpg');
         object-fit: contain;
         background-position: center;
@@ -138,11 +138,12 @@ main {
 
 
 h2 {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .exp {
     height: 5vh;
+    font-size: 18px;
     padding: 10px 0;
     color: white;
     cursor: pointer;
