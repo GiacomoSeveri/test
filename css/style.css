@@ -33,17 +33,19 @@ header {
     }
 
     .second-sec {
+        color: #000;
         margin: 0 0 0 -50px;
     }
 
     .link {
+        color: #000;
         height: 5vh;
         padding: 10px 10px;
-        color: white;
+        /* color: white; */
         cursor: pointer;
 
         &:hover {
-            text-shadow: #fff 1px 0 5px;
+            text-shadow: #000 1px 0 5px;
         }
     }
 
@@ -95,8 +97,10 @@ main {
     background-color: #f5f5f5;
 }
 
+/* ?utility */
+
 #utility {
-    max-width: 1400px;
+    max-width: 1600px;
     margin: 0 auto;
     color: #000;
     display: flex;
@@ -104,8 +108,8 @@ main {
     padding: 50px 0;
 
     .light {
-        width: 445px;
-        height: 250px;
+        width: 500px;
+        height: 310px;
         background-image: url('../img/2main/utility/light.jpg');
         object-fit: cover;
         background-position: center;
@@ -113,17 +117,17 @@ main {
     }
 
     .audio {
-        width: 445px;
-        height: 250px;
+        width: 500px;
+        height: 310px;
         background-image: url(../img/2main/utility/alexa.jpg);
         object-fit: contain;
         background-position: center;
-        padding: 160px 0 0 285px;
+        padding: 215px 0 0 320px;
     }
 
     .arredo {
-        width: 445px;
-        height: 250px;
+        width: 500px;
+        height: 310px;
         background-image: url('../img/2main/utility/arredo.jpg');
         object-fit: contain;
         background-position: center;
@@ -145,5 +149,42 @@ h2 {
 
     &:hover {
         text-shadow: #fff 1px 0 5px;
+    }
+}
+
+/* ?best seller */
+
+#best {
+    max-width: 1600px;
+    margin: 0 auto;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 16.6%;
+
+    .best-card {
+        background-color: #fff;
+        width: 255px;
+        height: 255px;
+        border-radius: 7px;
+        text-align: center;
+        padding-top: 25px;
+        cursor: pointer;
+
+        .img {
+            max-width: 220px;
+        }
+
+    }
+
+    .best-title {
+        color: #000;
+        text-align: center;
+    }
+
+    .best-price {
+        text-align: center;
+        margin-bottom: 25px;
+        color: #000;
     }
 }
