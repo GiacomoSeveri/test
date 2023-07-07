@@ -6,6 +6,31 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.section-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin: 50px 0;
+
+    .prod-title {
+        color: #000;
+        font-size: 35px;
+    }
+
+    .prod-subtitle {
+        color: #000;
+
+    }
+
+    .bar2 {
+        width: 175px;
+        border: 1px solid #000;
+        margin: 10px 0;
+    }
+}
+
 
 /* !HEADER */
 
@@ -34,7 +59,6 @@ header {
 
     .second-sec {
         color: #000;
-        margin: 0 0 0 -50px;
     }
 
     .link {
@@ -191,29 +215,6 @@ h2 {
     }
 }
 
-.section-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 50px 0;
-
-    .prod-title {
-        color: #000;
-        font-size: 35px;
-    }
-
-    .prod-subtitle {
-        color: #000;
-
-    }
-
-    .bar2 {
-        width: 175px;
-        border: 1px solid #000;
-        margin: 10px 0;
-    }
-}
 
 .for-button {
     display: flex;
@@ -235,4 +236,53 @@ h2 {
             background-color: #292727;
         }
     }
+}
+
+/* ?blog */
+
+#blog {
+    background-color: #fff;
+    padding: 50px 0;
+
+    .new-post {
+
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .post {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* align-items: center; */
+            flex-basis: 33%;
+            padding: 0 25px;
+
+
+            .post-img {
+                max-width: 400px;
+                margin-bottom: 20px;
+            }
+
+            .data {
+                color: gray;
+                margin: 10px 0;
+            }
+
+            .post-title {
+                color: #000;
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            .post-description {
+                color: gray;
+                margin: 10px 0;
+            }
+        }
+    }
+
 }
