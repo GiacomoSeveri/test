@@ -246,6 +246,7 @@ h2 {
             /* align-items: center; */
             flex-basis: 33%;
             padding: 0 25px;
+            cursor: pointer;
 
 
             .post-img {
